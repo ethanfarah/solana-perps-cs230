@@ -1,0 +1,120 @@
+{
+  "train": [
+    {
+      "epoch": 0,
+      "avg_equity": 19.98078062872334,
+      "std_equity": 0.0,
+      "avg_reward": -635.1763380741791,
+      "avg_spot_loss": 3.240481592439547,
+      "avg_vol_loss": 101.59768791082732,
+      "epsilon": 0.010993029351592926,
+      "equities": [
+        19.98078062872334
+      ]
+    },
+    {
+      "epoch": 1,
+      "avg_equity": 19.69195554819538,
+      "std_equity": 0.0,
+      "avg_reward": -1169.4426226076143,
+      "avg_spot_loss": 1.2170621321287205,
+      "avg_vol_loss": 48.186531045849065,
+      "epsilon": 0.010000994813717554,
+      "equities": [
+        19.69195554819538
+      ]
+    },
+    {
+      "epoch": 2,
+      "avg_equity": 13.802846550114683,
+      "std_equity": 0.0,
+      "avg_reward": -1425.66985674393,
+      "avg_spot_loss": 1.6288817760829777,
+      "avg_vol_loss": 39.520749888183964,
+      "epsilon": 0.01000000099660129,
+      "equities": [
+        13.802846550114683
+      ]
+    },
+    {
+      "epoch": 3,
+      "avg_equity": 9.75426360197905,
+      "std_equity": 0.0,
+      "avg_reward": -757.7094856048858,
+      "avg_spot_loss": 1.257059759811241,
+      "avg_vol_loss": 40.12982176607532,
+      "epsilon": 0.010000000000998393,
+      "equities": [
+        9.75426360197905
+      ]
+    }
+  ],
+  "val": [
+    {
+      "epoch": 0,
+      "avg_equity": 1.2312263011362574,
+      "std_equity": 0.0,
+      "avg_reward": 2.7904154982935627,
+      "equities": [
+        1.2312263011362574
+      ]
+    },
+    {
+      "epoch": 1,
+      "avg_equity": 1.171709141156716,
+      "std_equity": 0.0,
+      "avg_reward": -86.77462826591477,
+      "equities": [
+        1.171709141156716
+      ]
+    },
+    {
+      "epoch": 2,
+      "avg_equity": 1.1551660218714606,
+      "std_equity": 0.0,
+      "avg_reward": -555.2384044105896,
+      "equities": [
+        1.1551660218714606
+      ]
+    },
+    {
+      "epoch": 3,
+      "avg_equity": 1.1189578050696454,
+      "std_equity": 0.0,
+      "avg_reward": 31.53895570933488,
+      "equities": [
+        1.1189578050696454
+      ]
+    }
+  ],
+  "test": {
+    "avg_equity": 1.2540819856447338,
+    "std_equity": 0.0,
+    "avg_reward": -358.1207867859575,
+    "min_equity": 1.2540819856447338,
+    "max_equity": 1.2540819856447338,
+    "equities": [
+      1.2540819856447338
+    ],
+    "strategy_counts": {
+      "spot": {
+        "eth_leads": 5462,
+        "flat": 10453,
+        "sol_momentum": 13311,
+        "btc_leads": 3955,
+        "flow_driven": 4558,
+        "both_lead": 3940,
+        "sol_mean_revert": 1221
+      },
+      "vol": {
+        "vol_30s_mean_reverts": 6240,
+        "vol_30s_persists": 8760,
+        "vol_1m_persists": 6210,
+        "vol_cross_asset": 7380,
+        "vol_from_flow": 5760,
+        "vol_1m_mean_reverts": 3840,
+        "flat": 4710
+      }
+    }
+  }
+}

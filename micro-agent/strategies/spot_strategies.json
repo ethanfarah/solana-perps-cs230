@@ -1,0 +1,105 @@
+{
+    "flat": {
+        "features": [],
+        "direction": 0,
+        "target": null
+    },
+    
+    "btc_leads": {
+        "features": [
+            "btc_log_return_cur",
+            "btc_log_return_lag_100ms",
+            "btc_momentum_100ms_cur",
+            "btc_momentum_100ms_lag_100ms",
+            "btc_momentum_1s_cur",
+            "btc_momentum_5s_cur",
+            "btc_flow_imbalance_100ms_cur",
+            "btc_flow_imbalance_1s_cur",
+            "btc_vw_flow_imbalance_100ms_cur"
+        ],
+        "direction": 1,
+        "target": "fwd_log_return_100ms"
+    },
+    
+    "eth_leads": {
+        "features": [
+            "eth_log_return_cur",
+            "eth_log_return_lag_100ms",
+            "eth_momentum_100ms_cur",
+            "eth_momentum_100ms_lag_100ms",
+            "eth_momentum_1s_cur",
+            "eth_momentum_1s_lag_100ms",
+            "eth_momentum_5s_cur",
+            "eth_flow_imbalance_100ms_cur",
+            "eth_flow_imbalance_100ms_lag_100ms",
+            "eth_flow_imbalance_1s_cur",
+            "eth_flow_imbalance_1s_lag_100ms",
+            "eth_vw_flow_imbalance_100ms_cur"
+        ],
+        "direction": 1,
+        "target": "fwd_log_return_100ms"
+    },
+    
+    "both_lead": {
+        "features": [
+            "btc_log_return_cur",
+            "btc_log_return_lag_100ms",
+            "btc_momentum_100ms_cur",
+            "btc_momentum_1s_cur",
+            "btc_flow_imbalance_100ms_cur",
+            "btc_flow_imbalance_1s_cur",
+            "eth_log_return_cur",
+            "eth_log_return_lag_100ms",
+            "eth_momentum_100ms_cur",
+            "eth_momentum_1s_cur",
+            "eth_flow_imbalance_100ms_cur",
+            "eth_flow_imbalance_1s_cur"
+        ],
+        "direction": 1,
+        "target": "fwd_log_return_100ms"
+    },
+    
+    "sol_mean_revert": {
+        "features": [
+            "sol_log_return_cur",
+            "sol_log_return_lag_100ms",
+            "sol_momentum_1s_cur",
+            "sol_momentum_1s_lag_100ms",
+            "sol_momentum_5s_cur",
+            "sol_vw_flow_imbalance_1s_cur",
+            "sol_vw_flow_imbalance_1s_lag_100ms"
+        ],
+        "direction": -1,
+        "target": "fwd_log_return_100ms"
+    },
+    
+    "sol_momentum": {
+        "features": [
+            "sol_log_return_cur",
+            "sol_log_return_lag_100ms",
+            "sol_momentum_1s_cur",
+            "sol_momentum_1s_lag_100ms",
+            "sol_momentum_5s_cur",
+            "sol_vw_flow_imbalance_1s_cur",
+            "sol_vw_flow_imbalance_1s_lag_100ms"
+        ],
+        "direction": 1,
+        "target": "fwd_log_return_100ms"
+    },
+    
+    "flow_driven": {
+        "features": [
+            "eth_flow_imbalance_100ms_cur",
+            "eth_flow_imbalance_100ms_lag_100ms",
+            "eth_flow_imbalance_1s_cur",
+            "eth_flow_imbalance_1s_lag_100ms",
+            "eth_vw_flow_imbalance_100ms_cur",
+            "btc_flow_imbalance_100ms_cur",
+            "btc_flow_imbalance_1s_cur",
+            "btc_vw_flow_imbalance_100ms_cur",
+            "sol_vw_flow_imbalance_1s_cur"
+        ],
+        "direction": 1,
+        "target": "fwd_log_return_100ms"
+    }
+}

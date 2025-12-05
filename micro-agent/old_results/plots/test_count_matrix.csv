@@ -1,0 +1,8 @@
+,both_lead,btc_leads,eth_leads,flat,flow_driven,sol_mean_revert,sol_momentum
+flat,466,354,565,1292,465,158,1410
+vol_1m_mean_reverts,314,340,564,862,373,179,1208
+vol_1m_persists,632,590,643,1619,700,196,1830
+vol_30s_mean_reverts,546,606,777,1558,601,174,1978
+vol_30s_persists,880,859,1063,2081,911,213,2753
+vol_cross_asset,568,757,1025,1540,1055,180,2255
+vol_from_flow,534,449,825,1501,453,121,1877

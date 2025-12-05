@@ -1,0 +1,116 @@
+{
+    "flat": {
+        "features": [],
+        "direction": 0,
+        "target": null
+    },
+    
+    "vol_30s_persists": {
+        "features": [
+            "sol_realized_vol_1s_cur",
+            "sol_realized_vol_1s_lag_100ms",
+            "sol_realized_vol_30s_cur",
+            "sol_realized_vol_30s_lag_100ms",
+            "sol_realized_vol_30s_lag_500ms",
+            "sol_realized_vol_30s_lag_1s",
+            "sol_realized_vol_5m_cur",
+            "sol_realized_vol_5m_lag_100ms",
+            "sol_realized_vol_5m_lag_500ms",
+            "sol_realized_vol_5m_lag_1s",
+            "sol_realized_vol_15m_cur",
+            "sol_realized_vol_60m_cur"
+        ],
+        "direction": 1,
+        "target": "fwd_vol_30s"
+    },
+    
+    "vol_30s_mean_reverts": {
+        "features": [
+            "sol_realized_vol_1s_cur",
+            "sol_realized_vol_1s_lag_100ms",
+            "sol_realized_vol_30s_cur",
+            "sol_realized_vol_30s_lag_100ms",
+            "sol_realized_vol_30s_lag_500ms",
+            "sol_realized_vol_30s_lag_1s",
+            "sol_realized_vol_5m_cur",
+            "sol_realized_vol_5m_lag_100ms",
+            "sol_realized_vol_5m_lag_500ms",
+            "sol_realized_vol_5m_lag_1s",
+            "sol_realized_vol_15m_cur",
+            "sol_realized_vol_60m_cur"
+        ],
+        "direction": -1,
+        "target": "fwd_vol_30s"
+    },
+    
+    "vol_1m_persists": {
+        "features": [
+            "sol_realized_vol_1s_cur",
+            "sol_realized_vol_1s_lag_100ms",
+            "sol_realized_vol_30s_cur",
+            "sol_realized_vol_30s_lag_100ms",
+            "sol_realized_vol_30s_lag_500ms",
+            "sol_realized_vol_30s_lag_1s",
+            "sol_realized_vol_5m_cur",
+            "sol_realized_vol_5m_lag_100ms",
+            "sol_realized_vol_5m_lag_500ms",
+            "sol_realized_vol_5m_lag_1s",
+            "sol_realized_vol_15m_cur",
+            "sol_realized_vol_60m_cur"
+        ],
+        "direction": 1,
+        "target": "fwd_vol_1m"
+    },
+    
+    "vol_1m_mean_reverts": {
+        "features": [
+            "sol_realized_vol_1s_cur",
+            "sol_realized_vol_1s_lag_100ms",
+            "sol_realized_vol_30s_cur",
+            "sol_realized_vol_30s_lag_100ms",
+            "sol_realized_vol_30s_lag_500ms",
+            "sol_realized_vol_30s_lag_1s",
+            "sol_realized_vol_5m_cur",
+            "sol_realized_vol_5m_lag_100ms",
+            "sol_realized_vol_5m_lag_500ms",
+            "sol_realized_vol_5m_lag_1s",
+            "sol_realized_vol_15m_cur",
+            "sol_realized_vol_60m_cur"
+        ],
+        "direction": -1,
+        "target": "fwd_vol_1m"
+    },
+    
+    "vol_cross_asset": {
+        "features": [
+            "btc_realized_vol_1s_cur",
+            "btc_realized_vol_30s_cur",
+            "btc_realized_vol_5m_cur",
+            "eth_realized_vol_1s_cur",
+            "eth_realized_vol_30s_cur",
+            "eth_realized_vol_5m_cur",
+            "sol_realized_vol_1s_cur",
+            "sol_realized_vol_30s_cur",
+            "sol_realized_vol_5m_cur",
+            "sol_realized_vol_15m_cur",
+            "sol_realized_vol_60m_cur"
+        ],
+        "direction": 1,
+        "target": "fwd_vol_30s"
+    },
+    
+    "vol_from_flow": {
+        "features": [
+            "btc_flow_imbalance_100ms_cur",
+            "btc_flow_imbalance_1s_cur",
+            "eth_flow_imbalance_100ms_cur",
+            "eth_flow_imbalance_1s_cur",
+            "sol_flow_imbalance_1s_cur",
+            "btc_vw_flow_imbalance_100ms_cur",
+            "eth_vw_flow_imbalance_100ms_cur",
+            "sol_vw_flow_imbalance_1s_cur"
+        ],
+        "direction": 1,
+        "target": "fwd_vol_30s"
+    }
+}
